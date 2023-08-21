@@ -14,4 +14,11 @@ public class LoginTest extends TestBase {
         loginPage.fillOutLoginData().clickLogInButton();
         Assert.assertTrue(dashboard.isUserPanelDisplayed());
     }
+
+    @Test (priority = 2, description = "Add new leave")
+    public void addLeave(){
+        Dashboard dashboard = new Dashboard();
+        dashboard.gotoLeaveList();
+    }
+
 }
