@@ -40,7 +40,7 @@ public class TestBase {
             }
         }
 
-      //  DriverManager.disposeDriver();
+       DriverManager.disposeDriver();
     }
 }
 
